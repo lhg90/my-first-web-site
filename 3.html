@@ -3,17 +3,22 @@
     <head>
         <title>Faker - Recent Carrer</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
     </head>
 <body>
     <h1><a href="index.html">Faker</a></h1>
-    <div id="grid">
+    <input type="button" value="night" onclick="
+        document.querySelector('body').style.backgroundColor = 'black';
+        document.querySelector('body').style.color = 'white';
+    ">
+    <input type="button" value="day" onclick="
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+">
         <ol>
             <li><a href="1.html" class="saw">Intro</a></li>
             <li><a href="2.html" class="saw">Early life</a></li>
             <li><a href="3.html">Career</a></li>
         </ol>
-        <div id="article">
     <h2>Recent Carrer</h2>
         <p>
             Season 12<br><br>
@@ -32,7 +37,5 @@
             <p>Season 13<br><br>
             On January 20, Lee overtook Gorilla and became the player with the most     assist in the LCK in the game against KT Rolster. He also became the first  player to have reached 2,700 kills in the LCK on the same day.</P>
             </p>
-        </div>
-    </div>
 </body>
 </html>
